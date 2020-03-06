@@ -67,7 +67,20 @@ class Home extends React.Component {
     const {arr, plans} = this.state;
     return (
       <SafeAreaView style={{flex: 1, backgroundColor: 'lightgrey'}}>
-        
+        <View
+          style={{
+            flex: 2,
+            backgroundColor: '#fff',
+            shadowColor: '#999999',
+            shadowOffset: {width: 1, height: 1},
+            shadowRadius: 3,
+            shadowOpacity: 1,
+            borderWidth:0.6,
+            borderColor:'#999',
+          }}>
+          <Text>hello</Text>
+        </View>
+
         <ScrollView>
           <View style={{flex: 0.2, backgroundColor: 'white'}}>
             <FlatList
