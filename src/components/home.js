@@ -75,10 +75,10 @@ class Home extends React.Component {
             shadowOffset: {width: 1, height: 1},
             shadowRadius: 3,
             shadowOpacity: 1,
-            borderWidth:0.6,
-            borderColor:'#999',
+            borderWidth: 0.6,
+            borderColor: '#999',
           }}>
-          <Text>hello</Text>
+          <Text></Text>
         </View>
 
         <ScrollView>
